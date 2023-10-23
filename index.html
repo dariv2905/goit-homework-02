@@ -4,99 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css ">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <h1>Title</h1>
 
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li>
-                    <a href="#">Studio</a>
+    <header class="page-header">
+        <nav class="page-navigation">
+            <a  class="logotype" href="./index.html">WebStudio</a>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a class="menu-link" href="#">Studio</a>
                 </li>
 
-                <li>
-                    <a href="#">Portfolio</a>
+                <li class="menu-item" >
+                    <a class="menu-link"  href="#">Portfolio</a>
                 </li>
 
-                <li>
-                    <a href="#">Contacts</a>
+                <li class="menu-item" >
+                    <a class="menu-link"  href="#">Contacts</a>
                 </li>
             </ul>
         </nav>
 
-        <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <address class="page-information">
+            <ul class="information">
+                <li class="information-item">
+                    <a  class="information-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
 
                 <li>
-                    <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    <a class="information-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
 
-    <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+    <main class="main-block">
+        <section class="section">
+            <h1 class="title">Effective Solutions for Your Business</h1>
+            <button class="button" type="button">Order Service</button>
         </section>
 
-        <section>
-            <h2>Company</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+        <section class="second-section">
+            <h2 class="heading">Company</h2>
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <h3 class="menu-list-link">Strategy</h3>
+                    <p  class="menu-list-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
 
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                <li class="menu-list-item" >
+                    <h3 class="menu-list-link" >Punctuality</h3>
+                    <p class="menu-list-text" >Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
 
-                <li>
-                    <h3>Diligence</h3>
-                    <p> Research and confirm brands that present the strongest digital growth opportunities and minimize risk. </p>
+                <li class="menu-list-item" >
+                    <h3 class="menu-list-link" >Diligence</h3>
+                    <p class="menu-list-text" > Research and confirm brands that present the strongest digital growth opportunities and minimize risk. </p>
                 </li>
 
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                <li class="menu-list-item" >
+                    <h3 class="menu-list-link" >Technologies</h3>
+                    <p class="menu-list-text"  >Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
+        <section class="third-section">
+            <h2 class="headline">Our Team</h2>
+            <ul class="information-bascket">
+                <li class="information-basket-item">
                     <img src="./images/img.jpg" alt="Mark Guerrero" width="264" height="160">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="information-basket-link">Mark Guerrero</h3>
+                    <p class="information-basket-text">Product Designer</p>
                 </li>
 
-                <li>
-                    <h3>Tom Ford</h3>
+                <li class="information-basket-item" >
+                    <h3 class="information-basket-link" >Tom Ford</h3>
                     <img src="./images/img-1.jpg" alt="Tom Ford" width="264" height="160">
                     <p>Frontend Developer</p>
                 </li>
 
-                <li>
+                <li class="information-basket-item" >
                     <img src="./images/img(1).jpg" alt="Camila Garcia" width="264" height="160">
-                    <h3>Camila Garcia</h3>
+                    <h3  >Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
 
-                <li>
+                <li  class="information-basket-item" >
                     <img src="./images/img(2).jpg" alt="Daniel Wilson" width="264" height="160">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
+            </ul>
+        </section>
+
+        <section class="fifth-sektion">
+
+            <h2 class="headline">Our Portfolio</h2>
+
+            <ul class="information-bascket" >
+                <li   class="information-basket-item" >
+                    <h3>Banking App</h3>
+                    <img src="./images/f2.jpg" alt=" Banking App" width="360px" height="300px">
+                    <p>App</p>
+                </li>
+                <li  class="information-basket-item" > 
+                   <h3>Cashless Payment</h3>
+                   <img src="./images/f6.jpg" alt="Cashless Payment" width="360px" height="300px"  >
+                   <p>Marketing</p>
+                </li>
+                <li  class="information-basket-item"  >
+                    <h3>Cashless Payment</h3>
+                    <img src="./images/f5.jpg" alt="Cashless Payment" width="360px" height="300px" >
+                    <p>App</p>
+                </li>
+                <li class="information-basket-item"  >
+                    <h3>Taxi Service</h3>
+                    <img src="./images/f1.jpg" alt="Taxi Service"  width="360px" height="300px" >
+                    <p>Marketing</p>
+                </li>
+                <li  class="information-basket-item"  >
+                    <h3>Screen Illustrations</h3>
+                    <img src="./images/f3.jpg" alt="Screen Illustrations"  width="360px" height="300px" >
+                    <p>Design</p>
+                </li>
+                <li  class="information-basket-item"  > 
+                  <h3>Online Courses</h3>
+                  <img src="./images/f4.jpg" alt="Online Courses" width="360px" height="300px"  >
+                   <p>Marketing</p>
+                     </li>
+
             </ul>
         </section>
     </main>
