@@ -61,6 +61,11 @@ line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px; }
 
 
+.page-information 
+{ font-style: normal;
+}
+
+
 .button
 
 { 
