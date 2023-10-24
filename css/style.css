@@ -36,7 +36,8 @@ text-transform: uppercase;
 
 .menu-link:hover,
 .menu-link:focus
-{ color: #4D5AE5 }
+{ color:#404bbf;
+}
 
 .information-link
 {  color: var(--SLATE, #434455);
