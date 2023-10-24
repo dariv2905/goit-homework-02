@@ -62,7 +62,7 @@ letter-spacing: 1.12px; }
 .button
 
 { 
-    color: var(--WHITE, #FFF);
+    color: var(--WHITE, #FFFFFF);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -117,7 +117,7 @@ text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.1; /* 111.111% */
+line-height: 1.11; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -146,6 +146,20 @@ font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;}
 
+
+.third-section
+{ 
+    background: var(--CLOUD, #F4F4FD);
+
+}
+
+.information-basket-item
+
+{ 
+    background: var(--WHITE, #FFFFFF);
+}
+
+   
 
 
 
