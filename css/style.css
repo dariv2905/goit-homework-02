@@ -37,8 +37,7 @@ text-transform: uppercase;
     letter-spacing: 0.32px;
 }
 
-.menu-link:hover,
-.menu-link:focus
+.menu-link:hover, .menu-link:focus
 { color:#404BBF;
 }
 
