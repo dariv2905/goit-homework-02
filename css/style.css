@@ -85,10 +85,8 @@ letter-spacing: 1.12px; }
     line-height: 1.5; /* 150% */
     letter-spacing: 0.64px;
  }
- .button
 
-.button:hover,
-.button:focus
+.button:hover, .button:focus
 {background-color: #404BBF;
 }
 
