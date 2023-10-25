@@ -67,7 +67,6 @@ letter-spacing: 1.12px; }
 
 
 .button
-
 { 
     color: var(--WHITE, #FFFFFF);
     font-family: Roboto;
@@ -76,7 +75,6 @@ letter-spacing: 1.12px; }
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.64px;
-
  }
 
 
@@ -91,7 +89,6 @@ letter-spacing: 1.12px; }
   }
 
   .menu-list-text
-
   { 
     color: var(--SLATE, #434455);
     font-family: Roboto;
@@ -131,9 +128,7 @@ text-transform: capitalize;
 
 
 .information-basket-link
-{ 
-
-color: var(--NAVY-BLUE, #2E2F42);
+{ color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto;
 font-size: 20px;
@@ -155,8 +150,7 @@ letter-spacing: 0.32px;}
 
 
 .third-section
-{ 
-    background: var(--CLOUD, #F4F4FD);
+{ background: var(--CLOUD, #F4F4FD);
 
 }
 
@@ -167,8 +161,7 @@ letter-spacing: 0.32px;}
 }
 
 .footer-information-link
-{ 
-    color: var(--IRIS, #4D5AE5);
+{ color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -178,9 +171,7 @@ letter-spacing: 0.32px;}
 }
 
 .footer-information-text
-
-{ 
-color: var(--CLOUD, #F4F4FD);
+{ color: var(--CLOUD, #F4F4FD);
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -189,13 +180,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;}
 
 .footer
-{ 
-    background: var(--NAVY-BLUE, #2E2F42);
+{  background: var(--NAVY-BLUE, #2E2F42);
 }
    
 .company-name
-{ 
-    color: var(--NAVY-BLUE, #2E2F42);
+{  color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -205,8 +194,7 @@ letter-spacing: 0.02em;}
 }
 
 .company-logo
-{ 
-    color: var(--CLOUD, #F4F4FD);
+{ color: var(--CLOUD, #F4F4FD);
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
