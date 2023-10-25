@@ -161,9 +161,7 @@ letter-spacing: 0.32px;}
 }
 
 .information-basket-item
-
-{ 
-    background: var(--WHITE, #FFFFFF);
+{ background: var(--WHITE, #FFFFFF);
 }
 
 .footer-information-link
