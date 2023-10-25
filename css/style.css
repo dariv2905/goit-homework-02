@@ -37,7 +37,10 @@ text-transform: uppercase;
     letter-spacing: 0.32px;
 }
 
-.menu-link:hover,
+.menu-link:hover
+{color:#404bbf;
+}
+
 .menu-link:focus
 {color:#404bbf;
 }
@@ -84,7 +87,7 @@ letter-spacing: 1.12px; }
  }
  .button
 
- .button:hover,
+.button:hover,
 .button:focus
 {background-color: #404BBF;
 }
