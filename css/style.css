@@ -37,11 +37,11 @@ text-transform: uppercase;
     letter-spacing: 0.32px;
 }
 
-.menu-link:hover
+.menu-item:hover
 {color:#404bbf;
 }
 
-.menu-link:focus
+.menu-item:focus
 {color:#404bbf;
 }
 
