@@ -38,7 +38,7 @@ text-transform: uppercase;
 }
 
 .menu-link:hover, .menu-link:focus
-{ background-color:#404BBF;
+{ color: #404bbf;
 }
 
 .information-link
