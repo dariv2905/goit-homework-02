@@ -45,6 +45,11 @@ text-transform: uppercase;
 {color:#404bbf;
 }
 
+.information-link:hover,
+.information-link:focus
+{color:#404bbf;
+}
+
 .information-link
 {  color: var(--SLATE, #434455);
 font-family: Roboto;
