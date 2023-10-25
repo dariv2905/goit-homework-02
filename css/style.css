@@ -6,7 +6,8 @@ a  { text-decoration: none; }
 
 
 button { cursor: pointer;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",sans-serif;
+    background-color: #4D5AE5;
  }
 
 body { 
