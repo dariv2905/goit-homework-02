@@ -75,13 +75,19 @@ letter-spacing: 1.12px; }
 .button
 { 
     color: var(--WHITE, #FFFFFF);
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.64px;
  }
+ .button
+
+ .button:hover,
+.button:focus
+{background-color: #404BBF;
+}
 
 
  .menu-list-link
@@ -166,7 +172,7 @@ letter-spacing: 0.32px;}
 
 .footer-information-link
 { color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
